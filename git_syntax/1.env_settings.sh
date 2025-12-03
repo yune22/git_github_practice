@@ -35,6 +35,7 @@ git push origin main
 # git add, commit 안해도 됨
 
 # 2. 커밋이력 없이 가져가기 : test2
+git clone 레포주소
 # .git 폴더 삭제
 git init
 git remote add origin 원격지주소
