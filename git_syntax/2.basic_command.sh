@@ -39,3 +39,11 @@ git fetch origin main
 # commitID간 또는 브랜치 사이의 비교 명령어
 git diff commitID1 commitID2
 git diff 브랜치1 브랜치2
+
+# 가장 최신의 커밋 취소
+git reset head~1
+git reset head^
+
+# 이미 push commit 사항을 되돌리는 새로운 commit 생성
+# commit 지워지지 않음xxx
+git revert 커밋ID
